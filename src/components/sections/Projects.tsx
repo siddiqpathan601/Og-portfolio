@@ -28,6 +28,14 @@ const projects = [
     githubUrl: "https://github.com/fawazv/nxt-cart"
   },
   {
+    title: "Freezume",
+    category: "AI SaaS Platform",
+    image: "/images/projects/Freezume.png",
+    description: "AI-powered resume builder that extracts data from PDFs and improves content using Gemini API. Features modern templates and fast PDF generation.",
+    liveUrl: "https://www.freezume.com",
+    githubUrl: "https://github.com/siddiqpathan601/Hallowbyte-resumebuilder"
+  },
+  {
     title: "Dropbox Clone",
     category: "Cloud Architecture",
     image: "/images/projects/dropbox-clone.png",

@@ -177,11 +177,6 @@ const ProjectCard = memo(function ProjectCard({ project, index }: { project: any
                 View Project <ArrowRight size={16} />
               </a>
             )}
-            {project.liveUrl && <div className="h-4 w-px bg-white/20" />}
-            <a href={project.githubUrl} className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors uppercase text-sm font-bold tracking-wider">
-              <Github size={20} />
-              <span>Source</span>
-            </a>
           </div>
         </div>
       </div>

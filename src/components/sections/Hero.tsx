@@ -142,14 +142,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Modern Scroll Indicator */}
-      <div
-        ref={scrollRef}
-        className="absolute bottom-12 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 opacity-0"
-      >
-        <span className="text-[10px] uppercase tracking-widest text-muted-foreground animate-pulse">Scroll</span>
-        <div className="w-px h-16 bg-linear-to-b from-transparent via-foreground/50 to-transparent dark:via-white/50" />
-      </div>
+
 
     </section>
   );
